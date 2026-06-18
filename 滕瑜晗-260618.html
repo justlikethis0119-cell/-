@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>滕瑜晗 - 个人简历</title>
+  <style>
+    @page { size: A4; margin: 12mm 16mm; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+      font-size: 10pt;
+      line-height: 1.45;
+      color: #222;
+      max-width: 210mm;
+      margin: 0 auto;
+      padding: 14mm 18mm;
+      background: #fff;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #1a5f4a;
+      padding-bottom: 10px;
+      margin-bottom: 12px;
+    }
+    .header-left { text-align: left; }
+    .header-photo {
+      width: 85px;
+      height: 113px;
+      object-fit: cover;
+      border-radius: 4px;
+      border: 1px solid #e0e0e0;
+    }
+    h1 {
+      font-size: 22pt;
+      font-weight: 700;
+      letter-spacing: 4px;
+      color: #1a5f4a;
+      margin-bottom: 4px;
+    }
+    .contact { font-size: 9.5pt; color: #555; }
+    .contact span { margin: 0 8px; }
+    section { margin-bottom: 8px; }
+    h2 {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: #1a5f4a;
+      border-left: 3px solid #1a5f4a;
+      padding-left: 8px;
+      margin-bottom: 5px;
+    }
+    .highlights {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px 14px;
+      font-size: 9.5pt;
+    }
+    .highlights li {
+      list-style: none;
+      padding-left: 12px;
+      position: relative;
+    }
+    .highlights li::before {
+      content: "▸";
+      position: absolute;
+      left: 0;
+      color: #1a5f4a;
+      font-size: 9pt;
+    }
+    .job { margin-bottom: 7px; }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+    .job-title { font-weight: 700; font-size: 10pt; }
+    .job-meta { font-size: 9pt; color: #666; white-space: nowrap; }
+    .job-sub { font-weight: 600; font-size: 9.5pt; margin: 3px 0 1px; }
+    ul { padding-left: 18px; }
+    li { margin-bottom: 1px; line-height: 1.4; }
+
+    .job-divider {
+      border: none;
+      border-top: 1px dashed #b7d7c9;
+      margin: 6px 0 8px 0;
+      opacity: 0.8;
+    }
+
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 9.5pt;
+    }
+    .skills-table td {
+      border: 1px solid #ddd;
+      padding: 4px 6px;
+      vertical-align: top;
+    }
+    .skills-table td:first-child {
+      width: 75px;
+      font-weight: 600;
+      background: #f5f9f7;
+      color: #1a5f4a;
+    }
+    strong { color: #1a5f4a; }
+    @media print { body { padding: 0; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <h1>滕 瑜 晗</h1>
+    <div class="contact">
+      <span>180 6184 0256</span>|<span>writetotyh@163.com</span>|<span>上海</span>
+    </div>
+  </div>
+  <img class="header-photo" src="滕瑜晗形象照.JPG" alt="照片">
+</header>
+
+<section>
+  <h2>个人优势</h2>
+  <ul class="highlights">
+    <li><strong>金融本硕背景</strong>，4年+咨询服务经验，深耕ESG与可持续发展领域</li>
+    <li><strong>累计服务30+家企业</strong>，其中15项担任项目经理，擅长全流程项目交付</li>
+    <li><strong>扎实的研究与分析功底</strong>，具备政策研究、行业洞察、报告撰写及方案设计能力</li>
+    <li><strong>优秀的客户沟通能力</strong>，支持商务拓展、客户拜访与项目方案汇报</li>
+  </ul>
+</section>
+
+<section>
+  <h2>工作经历</h2>
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">信公股份 · 高级顾问</span>
+      <span class="job-meta">2022.07 — 2025.02 · 上海</span>
+    </div>
+    <div class="job-sub">工作内容</div>
+    <ul>
+      <li>ESG政策与行业研究，输出研究成果，赋能团队</li>
+      <li>为上市公司提供CSR/ESG/可持续发展领域咨询项目，类型包括报告编制、战略制定、管理体系搭建、碳盘查、评级管理、ESG品牌宣传等</li>
+      <li>支持客户开发，配合客户拜访，制作项目方案</li>
+    </ul>
+    <div class="job-sub">工作成果</div>
+    <ul>
+      <li>参与超过30项企业咨询项目，涵盖ESG报告编制、ESG评级管理、ESG战略规划、ESG管理体系搭建、碳盘查等各类型</li>
+      <li>其中15项作为项目经理把控项目整体进展及交付质量</li>
+      <li>因绩效表现优异，获公司"信公新星"表彰</li>
+    </ul>
+  </div>
+
+  <hr class="job-divider">
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">华彩咨询 · 咨询顾问</span>
+      <span class="job-meta">2025.05 — 2025.08 · 上海</span>
+    </div>
+    <div class="job-sub">工作内容</div>
+    <ul>
+      <li>政策和行业趋势研究，分析客户问题与需求点</li>
+      <li>把握客户需求，为客户提供人力资源管理、战略规划、企业管控等方面咨询服务</li>
+      <li>支持客户开发，配合客户拜访，制作项目建议书</li>
+    </ul>
+    <div class="job-sub">主要成果</div>
+    <ul>
+      <li>南宁某国企人资项目：作为项目顾问全程参与为期12周项目，涵盖调研访谈、业务梳理与管控体系设计、组织机构设置与定岗定编、薪酬体系、绩效考核体系、岗位资格与晋升体系、企业负责人薪酬管理体系、下属企业经营业绩考核体系等</li>
+    </ul>
+  </div>
+
+  <hr class="job-divider">
+
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">保合咨询 · 咨询顾问</span>
+      <span class="job-meta">2025.08 — 至今 · 上海</span>
+    </div>
+    <div class="job-sub">工作内容</div>
+    <ul>
+      <li>服务上海各供电公司，聚焦用电营商环境建设、营配融合改革等核心业务领域，提供管理咨询与专题研究全流程服务</li>
+      <li>协助客户完成高层领导专题发言稿、工作汇报、宣传文稿等重要材料撰写</li>
+      <li>支持客户开发，配合客户拜访，制作项目建议书，撰写标书</li>
+    </ul>
+    <div class="job-sub">主要成果</div>
+    <ul>
+      <li>围绕用电营商环境，主笔多项品牌/特色举措打造方案、案例申报材料及多份专题调研报告，编制数字化工具提升建议</li>
+      <li>围绕营配融合改革，主导编制多篇阶段性成效总结报告，参与标准化网格建设方案编制，定期撰写多期绩效分析报告</li>
+      <li>围绕文稿需求，完成多篇高层专题发言稿、年度总结及工作汇报材料撰写</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>实习经历</h2>
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">中国经济信息社江苏中心 · 实习分析师</span>
+      <span class="job-meta">2021.07 — 2021.10 · 南京</span>
+    </div>
+    <ul>
+      <li>参与选题策划、信息检索、资料收集整理、稿件撰写等相关工作</li>
+      <li>撰写经济观察类、政策解读类等稿件3篇，发表于《江苏要情动态》及"最江苏"微信公众号等平台</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>教育背景</h2>
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">南京信息工程大学 · 金融专硕</span>
+      <span class="job-meta">2020.09 — 2023.06 · 南京</span>
+    </div>
+    <ul>
+      <li>研究方向：军民融合金融支持、企业融资约束</li>
+      <li>论文《融资约束与研发投入关联机理研究——基于军民融合上市公司的经验证据》发表于《财会通讯》（北大核心期刊）</li>
+    </ul>
+  </div>
+  <div class="job">
+    <div class="job-header">
+      <span class="job-title">安徽财经大学 · 金融学</span>
+      <span class="job-meta">2016.09 — 2020.07 · 蚌埠</span>
+    </div>
+    <ul>
+      <li>获学习优秀奖3次、社会工作奖3次、综合素质奖1次、金融学院三好学生1次</li>
+      <li>获"国元证券杯"安徽省大学生投资大赛三等奖</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>通用技能</h2>
+  <table class="skills-table">
+    <tr>
+      <td>语言能力</td>
+      <td>英语六级（CET-6）</td>
+    </tr>
+    <tr>
+      <td>办公技能</td>
+      <td>文案写作、PPT制作、问卷制作分发等</td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>兴趣爱好</h2>
+  <p>阅读、播客、游泳</p>
+</section>
+
+</body>
+</html>
